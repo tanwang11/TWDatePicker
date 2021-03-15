@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TWDatePicker (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TWDatePicker (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TWDatePicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TWDatePicker: 3ae8edffdc0473b15f085e01df0ec79e029d7b08
+
+PODFILE CHECKSUM: d895c9fee9df3575aa2c4a861772f46325e6e7e2
+
+COCOAPODS: 1.10.1

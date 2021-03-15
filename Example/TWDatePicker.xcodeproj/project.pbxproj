@@ -24,6 +24,8 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		BDDD2BE55430A811B1B67625 /* Pods_TWDatePicker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6CE78E04B261506D6A8FFB /* Pods_TWDatePicker_Tests.framework */; };
+		D170501C25FF0409007E70BD /* TWDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D170501825FF0409007E70BD /* TWDatePicker.m */; };
+		D170501D25FF0409007E70BD /* NSDate+TWDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D170501925FF0409007E70BD /* NSDate+TWDatePicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		1C5C710416AB48F607AD093D /* Pods-TWDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWDatePicker_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TWDatePicker_Tests/Pods-TWDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2C8B96DAEBFBA4000DF165D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2C8B96DAEBFBA4000DF165D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		311A01AFA84892E2D4F646A9 /* Pods-TWDatePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWDatePicker_Example.release.xcconfig"; path = "Target Support Files/Pods-TWDatePicker_Example/Pods-TWDatePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TWDatePicker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWDatePicker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,8 +64,12 @@
 		652BAAAE53B492AA0589BB8B /* Pods-TWDatePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWDatePicker_Tests.release.xcconfig"; path = "Target Support Files/Pods-TWDatePicker_Tests/Pods-TWDatePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1B96208C409F80397E31709 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B1D94645054002E8ABC454C6 /* TWDatePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TWDatePicker.podspec; path = ../TWDatePicker.podspec; sourceTree = "<group>"; };
+		A1B96208C409F80397E31709 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B1D94645054002E8ABC454C6 /* TWDatePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TWDatePicker.podspec; path = ../TWDatePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D170501825FF0409007E70BD /* TWDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWDatePicker.m; sourceTree = "<group>"; };
+		D170501925FF0409007E70BD /* NSDate+TWDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TWDatePicker.m"; sourceTree = "<group>"; };
+		D170501A25FF0409007E70BD /* NSDate+TWDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TWDatePicker.h"; sourceTree = "<group>"; };
+		D170501B25FF0409007E70BD /* TWDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWDatePicker.h; sourceTree = "<group>"; };
 		EA6CE78E04B261506D6A8FFB /* Pods_TWDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWDatePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16B8F2AD71D6B9576017DF1 /* Pods-TWDatePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWDatePicker_Example.debug.xcconfig"; path = "Target Support Files/Pods-TWDatePicker_Example/Pods-TWDatePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F4E276B9EB98C3A1FD5DBC07 /* Pods_TWDatePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWDatePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,13 +109,13 @@
 				1C5C710416AB48F607AD093D /* Pods-TWDatePicker_Tests.debug.xcconfig */,
 				652BAAAE53B492AA0589BB8B /* Pods-TWDatePicker_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				D170500F25FF03D0007E70BD /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for TWDatePicker */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -197,6 +203,18 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		D170500F25FF03D0007E70BD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D170501A25FF0409007E70BD /* NSDate+TWDatePicker.h */,
+				D170501925FF0409007E70BD /* NSDate+TWDatePicker.m */,
+				D170501B25FF0409007E70BD /* TWDatePicker.h */,
+				D170501825FF0409007E70BD /* TWDatePicker.m */,
+			);
+			name = Classes;
+			path = ../TWDatePicker/Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -259,6 +277,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -383,8 +402,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D170501C25FF0409007E70BD /* TWDatePicker.m in Sources */,
 				6003F59E195388D20070C39A /* TWAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* TWViewController.m in Sources */,
+				D170501D25FF0409007E70BD /* NSDate+TWDatePicker.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

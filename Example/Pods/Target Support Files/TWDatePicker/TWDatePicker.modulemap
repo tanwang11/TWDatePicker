@@ -1,0 +1,6 @@
+framework module TWDatePicker {
+  umbrella header "TWDatePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
